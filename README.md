@@ -1,0 +1,2 @@
+# PasswordAuditTool
+Pulls user info from Active Directory and cracks the passwords. Uses "John the Ripper" and "NtdsAudit" for some core functionality. The end goal is to find weak passwords and identify the user accounts, but NOT the passwords that failed the audit. This tool should help harden the network security by finding the low hanging fruit passwords and allowing the users to be identified so they can be trained on how to create stronger passwords in the future.
